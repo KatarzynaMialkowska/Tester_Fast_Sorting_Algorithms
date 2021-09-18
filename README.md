@@ -4,12 +4,12 @@ Author: Katarzyna Miałkowska
 ## Contents ##
 
 1) generator.cxx
--Generate random output, specifying in the in argument:
+- Generate random output, specifying in the in argument:
 [data amount] [maximum range]
 
 2) genSorted.cpp
 
--Generates a random ascending sequence, specifying in the in argument:
+- Generates a random ascending sequence, specifying in the in argument:
 [data amount] [maximum range]
 
 3) genReverse.cpp
@@ -25,19 +25,19 @@ Author: Katarzyna Miałkowska
 [data amount] [maximum range]
 
 6) heapsort.cxx
- - Program includes heap implementations and heapsort
+- Program includes heap implementations and heapsort
 
 7) quicksort.cxx
- - Program includes non-recursive sort implementations quicksort
+- Program includes non-recursive sort implementations quicksort
 
 9) mergesort.cxx
- - Program includes non-recursive sort implementations mergesort 
+- Program includes non-recursive sort implementations mergesort 
 
 10) c_sort.c
- - The program includes implementations of qsort from the standard C library
+- The program includes implementations of qsort from the standard C library
 
 11) std_sort.cxx
- - The program includes sort implementations of std::sort from the standard C ++ library
+- The program includes sort implementations of std::sort from the standard C ++ library
 
 12) Tester
 - Includes a tester  
@@ -58,7 +58,7 @@ The tester program compares all of the above sort implementations in time and ge
 
 1) tester.cxx - tester implementation that calls all sort implementations for n random operations:
 n = 10,000, 20,000, 80,000, 160,000.
- Displays the execution time for each sort, then generates a graph showing visually, the time of sorting for n data. The chart will be in the graphs.pdf file
+Displays the execution time for each sort, then generates a graph showing visually, the time of sorting for n data. The chart will be in the graphs.pdf file
 
 2) tester.hxx - contains all sort implementations and generator.
 
