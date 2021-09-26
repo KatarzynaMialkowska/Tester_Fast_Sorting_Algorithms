@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     if(argc==3){
         for (int i = 1; i <= 2; i++) {
             if (!isdigit(*argv[i])) {
-                 std::cout << "ARGUMENTY MUSZA BYC LICZBA\n";
+                 std::cout << "ARGUMENTS MUST BE NUMBER\n";
                 exit(EXIT_FAILURE);
             }
         }
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 
     }else{
 
-        std::cout << "ZLA LICZBA ARGUMENTOW\nliczba losowan<n> maksymalny zakres<max>\n";
+        std::cout << "WRONG NUMBER OF ARGUMENTS\nnumber of draws<n> makximum range<max>";
         exit (EXIT_FAILURE);
 
     }

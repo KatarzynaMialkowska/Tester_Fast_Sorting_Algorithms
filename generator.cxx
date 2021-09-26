@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
     }else{
 
-        std::cout << "WRONG NUMBER OF ARGUMENTS\nliczba losowan<n> maksymalny zakres<max>\n";
+        std::cout << "WRONG NUMBER OF ARGUMENTS\nnumber of draws<n> makximum range<max>\n";
         exit (EXIT_FAILURE);
 
     }
